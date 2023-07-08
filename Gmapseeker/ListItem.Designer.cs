@@ -32,28 +32,28 @@
             this.lblAddress = new MaterialSkin.Controls.MaterialLabel();
             this.lblMobile = new MaterialSkin.Controls.MaterialLabel();
             this.lblWebsite = new System.Windows.Forms.LinkLabel();
+            this.lblEmail = new MaterialSkin.Controls.MaterialLabel();
+            this.lblRating = new MaterialSkin.Controls.MaterialLabel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.lblEmail = new MaterialSkin.Controls.MaterialLabel();
-            this.lblRating = new MaterialSkin.Controls.MaterialLabel();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.Depth = 0;
-            this.lblName.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.lblName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblName.Location = new System.Drawing.Point(155, 8);
             this.lblName.MouseState = MaterialSkin.MouseState.HOVER;
@@ -65,7 +65,7 @@
             // lblAddress
             // 
             this.lblAddress.Depth = 0;
-            this.lblAddress.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.lblAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblAddress.Location = new System.Drawing.Point(156, 36);
             this.lblAddress.MouseState = MaterialSkin.MouseState.HOVER;
@@ -77,7 +77,7 @@
             // lblMobile
             // 
             this.lblMobile.Depth = 0;
-            this.lblMobile.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.lblMobile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblMobile.Location = new System.Drawing.Point(156, 63);
             this.lblMobile.MouseState = MaterialSkin.MouseState.HOVER;
@@ -95,6 +95,63 @@
             this.lblWebsite.TabIndex = 7;
             this.lblWebsite.TabStop = true;
             this.lblWebsite.Text = "https://inkedcat.jp/";
+            this.lblWebsite.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblWebsite_LinkClicked);
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.Depth = 0;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.lblEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblEmail.Location = new System.Drawing.Point(157, 117);
+            this.lblEmail.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(549, 18);
+            this.lblEmail.TabIndex = 14;
+            this.lblEmail.Text = "info@robertangus.co.nz";
+            // 
+            // lblRating
+            // 
+            this.lblRating.AutoSize = true;
+            this.lblRating.Depth = 0;
+            this.lblRating.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.lblRating.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblRating.Location = new System.Drawing.Point(43, 104);
+            this.lblRating.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblRating.Name = "lblRating";
+            this.lblRating.Size = new System.Drawing.Size(28, 18);
+            this.lblRating.TabIndex = 2;
+            this.lblRating.Text = "4.8";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Window;
+            this.panel1.Controls.Add(this.lblEmail);
+            this.panel1.Controls.Add(this.guna2PictureBox6);
+            this.panel1.Controls.Add(this.lblRating);
+            this.panel1.Controls.Add(this.guna2PictureBox5);
+            this.panel1.Controls.Add(this.lblName);
+            this.panel1.Controls.Add(this.guna2PictureBox4);
+            this.panel1.Controls.Add(this.lblAddress);
+            this.panel1.Controls.Add(this.guna2PictureBox3);
+            this.panel1.Controls.Add(this.lblMobile);
+            this.panel1.Controls.Add(this.guna2PictureBox2);
+            this.panel1.Controls.Add(this.lblWebsite);
+            this.panel1.Controls.Add(this.guna2PictureBox1);
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(804, 144);
+            this.panel1.TabIndex = 15;
+            // 
+            // guna2PictureBox6
+            // 
+            this.guna2PictureBox6.Image = global::Gmapseeker.Properties.Resources.star__1_;
+            this.guna2PictureBox6.ImageRotate = 0F;
+            this.guna2PictureBox6.Location = new System.Drawing.Point(17, 20);
+            this.guna2PictureBox6.Name = "guna2PictureBox6";
+            this.guna2PictureBox6.Size = new System.Drawing.Size(80, 80);
+            this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox6.TabIndex = 13;
+            this.guna2PictureBox6.TabStop = false;
             // 
             // guna2PictureBox5
             // 
@@ -151,62 +208,6 @@
             this.guna2PictureBox1.TabIndex = 8;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // lblEmail
-            // 
-            this.lblEmail.Depth = 0;
-            this.lblEmail.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblEmail.Location = new System.Drawing.Point(157, 117);
-            this.lblEmail.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(549, 18);
-            this.lblEmail.TabIndex = 14;
-            this.lblEmail.Text = "info@robertangus.co.nz";
-            // 
-            // lblRating
-            // 
-            this.lblRating.AutoSize = true;
-            this.lblRating.Depth = 0;
-            this.lblRating.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRating.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblRating.Location = new System.Drawing.Point(38, 104);
-            this.lblRating.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblRating.Name = "lblRating";
-            this.lblRating.Size = new System.Drawing.Size(39, 25);
-            this.lblRating.TabIndex = 2;
-            this.lblRating.Text = "4.8";
-            // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.Image = global::Gmapseeker.Properties.Resources.star__1_;
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(17, 20);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(80, 80);
-            this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox6.TabIndex = 13;
-            this.guna2PictureBox6.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Window;
-            this.panel1.Controls.Add(this.lblEmail);
-            this.panel1.Controls.Add(this.guna2PictureBox6);
-            this.panel1.Controls.Add(this.lblRating);
-            this.panel1.Controls.Add(this.guna2PictureBox5);
-            this.panel1.Controls.Add(this.lblName);
-            this.panel1.Controls.Add(this.guna2PictureBox4);
-            this.panel1.Controls.Add(this.lblAddress);
-            this.panel1.Controls.Add(this.guna2PictureBox3);
-            this.panel1.Controls.Add(this.lblMobile);
-            this.panel1.Controls.Add(this.guna2PictureBox2);
-            this.panel1.Controls.Add(this.lblWebsite);
-            this.panel1.Controls.Add(this.guna2PictureBox1);
-            this.panel1.Location = new System.Drawing.Point(4, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(804, 144);
-            this.panel1.TabIndex = 15;
-            // 
             // ListItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,14 +217,14 @@
             this.Name = "ListItem";
             this.Size = new System.Drawing.Size(811, 151);
             this.Load += new System.EventHandler(this.ListItem_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

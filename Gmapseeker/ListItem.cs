@@ -76,5 +76,14 @@ namespace Gmapseeker
         {
 
         }
+
+        private void lblWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lblWebsite.Tag = lblWebsite.Text;
+            string url = lblWebsite.Tag.ToString();
+
+            // Open the URL in the default web browser
+            System.Diagnostics.Process.Start(url);
+        }
     }
 }
