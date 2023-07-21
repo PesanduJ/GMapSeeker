@@ -8,6 +8,7 @@ namespace Gmapseeker
 {
     public class Shop
     {
+        //testing
         public string name { get; set; }
         public string address { get; set; }
         public string international_phone { get; set; }

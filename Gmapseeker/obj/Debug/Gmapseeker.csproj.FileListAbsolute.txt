@@ -40,3 +40,7 @@ C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\obj\Debug\Gmapseeker.cspro
 C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\obj\Debug\Gmapseeker.csproj.CopyComplete
 C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\obj\Debug\Gmapseeker.exe
 C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\obj\Debug\Gmapseeker.pdb
+C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\bin\Debug\Gmapseeker.exe.manifest
+C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\bin\Debug\Gmapseeker.application
+C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\obj\Debug\Gmapseeker.exe.manifest
+C:\Users\Root Haxo\source\repos\Gmapseeker\Gmapseeker\obj\Debug\Gmapseeker.application
